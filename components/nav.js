@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 const links = [
   { href: 'https://zeit.co/now', label: 'ZEIT' },
@@ -13,6 +14,7 @@ const Nav = () => (
   <nav>
     <div>
         <p>This is the nav!</p>
+        <FontAwesomeIcon icon={['fab', 'github']}/>
     </div>
   </nav>
 )
