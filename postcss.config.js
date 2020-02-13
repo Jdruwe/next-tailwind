@@ -10,6 +10,7 @@ module.exports = {
                         './components/**/*.{js,jsx,ts,tsx}',
                     ],
                     defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
+                    whitelist: ['svg-inline--fa']
                 },
             ]
             : undefined,

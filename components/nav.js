@@ -14,7 +14,7 @@ const Nav = () => (
   <nav>
     <div>
         <p>This is the nav!</p>
-        <FontAwesomeIcon icon={['fab', 'github']}/>
+        <FontAwesomeIcon rotation={90} icon={['fab', 'github']}/>
     </div>
   </nav>
 )
